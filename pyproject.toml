@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "qr-login-demo"
+version = "0.1.0"
+description = ""
+authors = ["kondounagi <kondounagi@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qr_login_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
