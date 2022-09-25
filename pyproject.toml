@@ -8,6 +8,8 @@ packages = [{include = "qr_login_demo"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+Kivy = {extras = ["base"], version = "^2.1.0"}
+fastapi = {extras = ["full"], version = "^0.85.0"}
 
 
 [build-system]
